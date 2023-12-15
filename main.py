@@ -33,7 +33,7 @@ class Snake:
           pygame.draw.rect(screen, GREEN, pygame.Rect(segment.x * cell_size, segment.y * cell_size, 0, 7))
 
 screen = pygame.display.set_mode((cell_size*number_of_cells, cell_size*number_of_cells))
-pygame.display.set_caption("Retro Snake")
+pygame.display.set_caption("Le Snake")
 clock = pygame.time.Clock()
 food_surface = pygame.image.load("Graphics/food.png")
 food = Food(food_surface)
